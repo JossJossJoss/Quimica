@@ -1,25 +1,44 @@
+background = #CDE669
+no_metal = #F7FD5B
 body
 	font-size 16px
 	text-align center
-	background-color #CDE669
-ul
+	background-color background
+header
+	width 100%
+	background-color rgba(0, 0, 0, .90)
+	height 5.5em
+
+.elementos
 	margin 0 
 	padding 0
+.elementos
 li 
 	list-style-type:none
-	margin 1em
+	margin 1em 0
+
 
 .box
-	width 99%
+	width 100%
 	height 70px
 	background-color #232323
 	display inline-table
-	border-radius 55px
+	position relative
+
+	&:before
+		border-top 46px solid transparent
+		border-left 27px solid #CDE669
+		border-bottom 46px solid transparent
+		position absolute
+		content ""
+		top 0
+		left 0
+	
 
 .elemento
 	border-radius 50%
-	background-color #F7FD5B
-	margin 1em 1em 1em 1em
+	background-color no_metal
+	margin 1em 1em 1em 2.5em
 	height 60px
 	width 60px
 	white-space nowrap
@@ -30,15 +49,27 @@ li
 	height 20px
 	border-radius 50%
 	background-color #FE0010
+	color white
 
 .elc
 	width 15px
 	height 15px
 	border-radius 50%
-	background-color #232323
+	background-color rgba(10, 10, 10, .75)
 	position absolute
 	right 3%
 	top 40%
-.Escribe algo aqui pan 
 
-	
+.elcp
+	color white
+	font-size 50%
+	margin 0
+	position absolute
+	top 15%
+
+
+.simbolo
+	display inline
+	font-weight las
+	font-size 20px
+

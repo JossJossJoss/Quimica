@@ -1,94 +1,97 @@
-background = #CDE669
-no_metal = #F7FD5B
+back = #A3C1C3
+head = #284244
+bar = rgba(203, 238, 63, 0.8)
+elementos = rgba(255, 255, 255, 0.9)
+verdoso = #9DDD58
+amarilloso = #F8ED6E
+naranja = #FFCB6F
+@font-face{
+	font-family:quicksand-dash;
+	src:url(Quicksand-LightItalic.otf);
+} 
 body
+	background-color back
+	font-family quicksand-dash
 	font-size 16px
-	text-align center
-	background-color background
 header
-	width 100%
-	background-color rgba(0, 0, 0, .90)
-	height 5.5em
-
-.elementos
-	margin 0 
-	padding 0
-.elementos
-li 
-	list-style-type:none
-	margin 1em 0
-
-
-.box
-	width 92.6%
-	height 70px
-	background-color #232323
-	display inline-table
+	background-color head
+	height 10em
+	text-align center
 	position relative
-	margin-right -2.5em
-	overflow hiden
-
-
-	&:before
-		border-top 46px solid transparent
-		border-left 27px solid #CDE669
-		border-bottom 46px solid transparent
+	.logo
+		border-radius 50%
+		width 5em
+		height 5em
+		background-color back
 		position absolute
-		content ""
-		top 0
-		left 0
+		top 2.5em
+		left 8px
+		text-align center
+		h2
+			padding 0
+			margin 0
+			font-size 60px
+			color white
+			
+		
+.menu
+	background-color bar
+	height 2em
+	position relative 
 	
-.box:hover
-	margin-right -0.2em
-
-.elemento
-	border-radius 50%
-	background-color no_metal
-	margin 1em 1em 1em 2.5em
-	height 60px
-	width 60px
-	white-space nowrap
+	border-bottom 0.15em solid rgba(40, 66, 68, 0.8)
+	&:before
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-left 12px solid head
+		content ""
+		position absolute
+		top 0 
+		left 0
+	&:after
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-right 12px solid head
+		content ""
+		position absolute
+		top 0 
+		right 0	
+.content
+	padding 0.5em
+.box
+	width 100%
+	height 7em
+	margin 0
+	background-color elementos
+	border 1.5px solid head
+.elemento 
+	width 7em
+	height 100%
+	background-color head
 	position relative
 
-.numa
-	width 20px
-	height 20px
+
+.metal
+	width 90%
+	height 90%
+	background-color amarilloso
 	border-radius 50%
-	background-color #FE0010
-	color white
-
-.elc
-	width 15px
-	height 15px
+	position absolute
+	left 5%
+	top 5%
+.no_metal
+	width 90%
+	height 90%
+	background-color verdoso
 	border-radius 50%
-	background-color rgba(10, 10, 10, .75)
 	position absolute
-	right 3%
-	top 40%
-
-.elcp
-	color white
-	font-size 50%
-	margin 0
+	left 5%
+	top 5%
+.metaloide
+	width 90%
+	height 90%
+	background-color naranja
+	border-radius 50%
 	position absolute
-	top 15%
-
-
-.simbolo
-	display inline
-	font-weight las
-	font-size 20px
-
-.nombre
-	display inline-block
-	position absolute
-	top 23px
-	left 10em
-	color #AAA
-
-
-
-	h2
-		padding 0
-		margin 0
-		text-shadow 0px 0px 5px #EEE
-		font-size 2.5em
+	left 5%
+	top 5%

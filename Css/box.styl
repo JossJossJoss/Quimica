@@ -1,10 +1,11 @@
-back = #A3C1C3
+back = #ABBCBE
 head = #284244
 bar = rgba(203, 238, 63, 0.8)
+bh = rgba(245, 245, 245, 0.5)
 elementos = rgba(255, 255, 255, 0.9)
-verdoso = #9DDD58
-amarilloso = #F8ED6E
-naranja = #FFCB6F
+no-metal = #9AE748
+metal = #F3E542
+metaloide = #FFB800
 @font-face{
 	font-family:quicksand-dash;
 	src:url(Quicksand-LightItalic.otf);
@@ -33,7 +34,24 @@ header
 			font-size 60px
 			color white
 			
-		
+ul
+	margin 0
+	padding 6px 20px
+	text-align center
+.item 
+	display inline-block
+	font-size 20px	
+	width 30%
+.item:hover
+	background-color bh
+	color head
+
+.med
+	border-left 1.5px solid head
+	border-right 1.5px solid head
+.active
+	background-color rgba(0, 0, 0, .3)
+	color #EEE
 .menu
 	background-color bar
 	height 2em
@@ -64,6 +82,7 @@ header
 	margin 0
 	background-color elementos
 	border 1.5px solid head
+	margin 1em 0
 .elemento 
 	width 7em
 	height 100%
@@ -74,15 +93,15 @@ header
 .metal
 	width 90%
 	height 90%
-	background-color amarilloso
+	background-color metal
 	border-radius 50%
 	position absolute
 	left 5%
 	top 5%
-.no_metal
+.no-metal
 	width 90%
 	height 90%
-	background-color verdoso
+	background-color no-metal
 	border-radius 50%
 	position absolute
 	left 5%
@@ -90,8 +109,17 @@ header
 .metaloide
 	width 90%
 	height 90%
-	background-color naranja
+	background-color metaloide
 	border-radius 50%
 	position absolute
 	left 5%
 	top 5%
+a
+	background none
+	text-style none
+@media screen and (min-width: 768px)
+	.box
+		width 48%
+		display inline-block
+		&:nth-child(odd)
+			margin-right 2%

@@ -7,6 +7,7 @@ no-metal = #9AE748
 metal = #F3E542
 metaloide = #FFB800
 griso = #3D3D3D
+atom = rgba(238, 12, 12, 0.9)
 @font-face{
 	font-family:quicksand-dash;
 	src:url(Quicksand-LightItalic.otf);
@@ -95,10 +96,10 @@ ul
 
 .s
 	margin 0 
-	padding 0 
-	font-size 5em
+	padding 10% 0 
+	font-size 4em
 	color #EEE
-	text-shadow 2px 2px 10px black
+	text-shadow 1.5px 1.5px 5px black
 
 .nombre
 	color griso
@@ -107,7 +108,17 @@ ul
 	position absolute
 	right 5% 
 	top 15%
-	
+.num 
+	background-color atom
+	width 1.8em
+	height 1.8em
+	border-radius 50%
+	position inherit
+.num > p
+	color #EEE
+	margin 21% 0
+	font-family sans-serif
+
 
 
 .metal
@@ -161,7 +172,7 @@ a
 		&:nth-child(odd)
 			margin-right 2%
 	.nombre
-		font-size 3em
+		font-size 2.7em
 		right 1% 
 		top 10%
 @media screen and (min-width: 1100px)

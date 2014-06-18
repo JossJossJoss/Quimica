@@ -1,4 +1,179 @@
-body
-   background-color rgb(146, 179, 36)
-.cont	
-	margin-top 4em
+no_metal1 = rgb(210,255,82)
+no_metal2 = rgb(210,255,82)
+bh = rgba(245, 245, 245, 0.5)
+GrisText = #232323
+metaloide1 = rgba(255,175,75,1)
+metaloide2 = rgba(255,146,10,1)
+metal1 = rgba(241,231,103,1)
+metal2 = rgba(254,182,69,1)
+@font-face{
+	font-family HennyPenny;
+	src url(HennyPenny-Regular.otf)
+	font-family quicksand-dash;
+	src url(Quicksand-LightItalic.otf) 
+}
+.no_metal
+	background -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%)
+	font-size 16px
+.metal
+	background -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%)
+	font-size 16px
+.metaloide
+	background -webkit-linear-gradient(left, metaloide1 0%, metaloide2 100%)
+	font-size 16px
+nav
+	width 100%
+.item
+	p
+		padding 2% 0 
+		margin 0
+
+.menu_no_metal1
+	background rgba(0, 0, 0, .75)
+	color no_metal1
+	height 2em
+	position relative
+	&:before
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-left 12px solid no_metal1
+		content ""
+		position absolute
+		top 0 
+		left 0
+	&:after
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-right 12px solid no_metal2
+		content ""
+		position absolute
+		top 0 
+		right 0
+
+.menu_metal1
+	background rgba(0, 0, 0, .75)
+	height 2em
+	position relative
+	color metal1
+	&:before
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-left 12px solid metal1
+		content ""
+		position absolute
+		top 0 
+		left 0
+	&:after
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-right 12px solid metal2
+		content ""
+		position absolute
+		top 0 
+		right 0
+
+.menu_metaloide1
+	background rgba(0, 0, 0, .75)
+	height 2em
+	position relative
+	color metaloide1
+	&:before
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-left 12px solid metaloide1
+		content ""
+		position absolute
+		top 0 
+		left 0
+	&:after
+		border-bottom 16px solid transparent
+		border-top 16px solid transparent
+		border-right 12px solid metaloide2
+		content ""
+		position absolute
+		top 0 
+		right 0
+.menu
+	ul
+		padding 0 
+		margin 0 
+
+		.item 
+			list-style-type none
+			display inline-block
+			width 31%
+			text-align center
+			
+		.item:hover
+			background-color bh
+.cont
+	padding 0.2em
+.texto
+	background-color bh
+	border 2px dotted #232323
+	height 10em
+	vertical-align top
+	width 100%
+.container	
+	display inline
+	vertical-align top
+	width 67%
+	margin-left 0.5%
+.info
+	width 31%
+	height 30em
+	vertical-align top
+	border 2.6px dotted GrisText
+	background-color rgba(40, 40, 40, .95)
+
+.container,.info{
+	display: inline-block;
+	vertical-align:top;
+}
+.enc
+	margin 0.8em 0 
+.sim
+	border-bottom 2.6px dotted GrisText
+	font-size 5em
+	overflow hidden
+	text-align center
+	width 100%	
+	font-family quicksand-dash
+
+	h1 
+		margin 0.3em 0
+		color GrisText
+article
+	margin-bottom 1em
+
+.texto
+	h2
+		margin 0.2em 0.5em
+		font-size 1.8em 
+		font-family quicksand-dash
+		&:before
+			content "| "
+		&:after
+			content "|"
+	p
+		margin 0 1em
+		text-align justify 
+
+.asset
+	width 49.3%
+	background-color rgba(40, 40, 40, .95)
+	color white
+	display inline-block
+	padding 0 
+	margin 0 
+	vertical-align top
+	text-align center
+	h3
+		margin 0 
+		padding 1em  0 0.2em
+		border-bottom 1px solid white
+
+	p
+		padding 0.5em 0
+		margin 0
+		

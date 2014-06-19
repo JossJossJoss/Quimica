@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title> Q | Helio </title>
+	<link rel="stylesheet" href="css/nm.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<!--- Tipo del elemento -->
+<body class="no_metal">
+	<nav class="menu menu_no_metal1 color_no_metal">
+		<ul>
+			<li class="item"><p>Historia</p></li>
+			<li class="item"><p>Elementos</p></li>
+			<li class="item"><p>Test</p></li>
+		</ul>
+	</nav>
+	<!--- Inicio del DOM -->
+	<header class="enc">
+		<div class="sim">
+		<!--- Simbolo del Elemento -->
+			<h1>He</h1>
+		</div>
+	</header>
+<section class="cont">
+<article class="info">
+<!--- Crear un div de esta clase para cada asset -->
+	<div class="asset">
+		<h3>
+		INFORMACION GENERAL
+		</h3>
+		<p>
+		
+Nombre y clase  : Helio , No metal
+
+		</p>
+		<p>
+Grupo,periodo y bloque : 18,1,P
+		</p>
+		<P>
+Estado ordinario:	Gas
+Densidad:	0,1785 kg/m3
+Punto de fusión:	0,95 K (-272 °C)
+Punto de ebullición:	4,22 K (-269 °C)
+Entalpía de vaporización:	0,0845 kJ/mol
+Entalpía de fusión:	5,23 kJ/mol
+
+		</P>
+	</div>
+	<div class="asset">
+		<h3>
+		HISTORIA
+		</h3>
+		<p>
+		La primera evidencia de la existencia del helio se observó el 18 de agosto de 1868 como una línea brillante de color amarillo con una longitud de 587,49 nanómetros en el espectro de la cromosfera del Sol. 
+
+		</p>
+		<P>
+			La línea fue detectada por el astrónomo francés Pierre Janssen durante un eclipse solar total en Guntur, India.70 En un principio se pensó que esta línea era producida por el sodio.
+
+		</P>
+	</div>
+
+
+
+	
+
+
+	</article>
+<div class="container">
+	<article class="texto t-1">
+		<h2>HELIO</h2>
+		<p>El helio es un elemento químico de número atómico 2, símbolo He y peso atómico estándar de 4,0026. Pertenece al grupo 18 de la tabla periódica de los elementos, ya que al tener el nivel de energía completo presenta las propiedades de un gas noble. Es decir, es inerte (no reacciona) y al igual que estos, es un gas monoatómico incoloro e inodoro que cuenta con el menor punto de ebullición de todos los elementos químicos y solo puede ser licuado bajo presiones muy grandes y no puede ser congelado.</p>
+	</article>
+	<article class="texto t-1">
+		<h2>COMPUESTOS</h2>
+		<p>Dado que el helio es un gas noble, en la práctica no participa en las reacciones químicas, aunque bajo la influencia de descargas eléctricas o bombardeado con electrones forma compuestos.
+
+El helio tiene una valencia cero y no es químicamente reactivo bajo condiciones normales. Es un aislante eléctrico a menos que esté ionizado. Al igual que los demás gases nobles, tiene niveles de energía metaestables, lo que le permite seguir ionizado en una descarga eléctrica con un voltaje por debajo de su potencial de ionización.
+		</p>
+	</article>
+	<article class="texto t-1">
+		<h2>ABUNDANCIA</h2>
+		<p>El helio es el segundo elemento más abundante del universo conocido tras el hidrógeno y constituye alrededor del 23% de la masa bariónica del universo.28 La mayor parte del helio se formó durante la nucleosíntesis del Big Bang, en los tres primeros minutos después de este. De esta forma, la medición de su abundancia contribuye a los modelos cosmológicos. En las estrellas, el helio se forma por la fusión nuclear del hidrógeno en reacciones en cadena protón-protón y en el ciclo CNO, los cuales forman parte de la nucleosíntesis estelar.</p>
+		
+	</article>
+	<article class="texto t-1">
+		<h2>APLICACIONES</h2>
+		<p>El helio es más ligero que el aire y a diferencia del hidrógeno no es inflamable, siendo además su poder ascensional un 8% menor que el de este, por lo que se emplea como gas de relleno en globos y zepelines publicitarios, de investigación atmosférica e incluso para realizar reconocimientos militares.
+
+Aún siendo la anterior la principal, el helio tiene más aplicaciones
+
+</p>
+	</article>
+</div>
+	
+</section>
+</body>
+</html>

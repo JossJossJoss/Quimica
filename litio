@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title> Q | LITIO </title>
+	<link rel="stylesheet" href="css/nm.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<!--- Tipo del elemento -->
+<body class="metal">
+	<nav class="menu menu_metal1 color_metal">
+		<ul>
+			<li class="item"><p>Historia</p></li>
+			<li class="item"><p>Elementos</p></li>
+			<li class="item"><p>Test</p></li>
+		</ul>
+	</nav>
+	<!--- Inicio del DOM -->
+	<header class="enc">
+		<div class="sim">
+		<!--- Simbolo del Elemento -->
+			<h1>Li</h1>
+		</div>
+	</header>
+<section class="cont">
+<article class="info">
+<!--- Crear un div de esta clase para cada asset -->
+	<div class="asset">
+		<h3>
+		INFORMACION GENERAL
+		</h3>
+		<p>
+		
+Nombre y clase  : Litio , Metal
+
+		</p>
+		<p>
+Grupo,periodo y bloque : 1,2,S
+		</p>
+		<P>
+Estado ordinario:	Sólido (no magnético)
+Densidad:	535 kg/m3
+Punto de fusión:	453,69 K (181 °C)
+Punto de ebullición:	1615 K (1342 °C)
+Entalpía de vaporización:	145,92 kJ/mol
+Entalpía de fusión:	3 kJ/mol
+
+		</P>
+	</div>
+	<div class="asset">
+		<h3>
+		HISTORIA
+		</h3>
+		<p>
+		El litio fue descubierto por Johann Arfvedson en 1817. Arfvedson encontró este elemento en la espodumena y lepidolita de una mina de petalita, LiAl (Si2O5)2, de la isla Utö (Suecia) que estaba analizando. En 1818 C.G. Gmelin fue el primero en observar que las sales de litio tornan la llama de un color rojo brillante.
+
+		</p>
+		<P>
+		En 1818 C.G. Gmelin fue el primero en observar que las sales de litio tornan la llama de un color rojo brillante.
+
+
+		</P>
+	</div>
+
+
+
+	
+
+
+	</article>
+<div class="container">
+	<article class="texto t-1">
+		<h2>LITIO</h2>
+		<p>El litio (griego: λιθίον, ‘piedrecita’)?1 es un elemento químico de símbolo Li y número atómico 3. En la tabla periódica, se encuentra en el grupo 1, entre los elementos alcalinos. En su forma pura, es un metal blando, de color blanco plata, que se oxida rápidamente en aire o agua. Es el elemento sólido más ligero y se emplea especialmente en aleaciones conductoras del calor, en baterías eléctricas y, sus sales, en el tratamiento del trastorno bipolar.
+
+</p>
+	</article>
+	<article class="texto t-1">
+		<h2>ETIMOLOGIA</h2>
+		<p>El litio toma su nombre del griego λίθoς -ου, "piedra". El nombre del elemento proviene del hecho de haber sido descubierto en un mineral, mientras que el resto de los metales alcalinos fueron descubiertos en tejidos de plantas.
+		</p>
+	</article>
+	<article class="texto t-1">
+		<h2>ABUNDANCIA</h2>
+		<p>El litio es un elemento moderadamente abundante y está presente en la corteza terrestre en 65 partes por millón (ppm). Esto lo coloca por debajo del níquel, cobre y wolframio y por encima del cerio y estaño, en lo referente a abundancia. Se encuentra disperso en ciertas rocas, pero nunca libre, dada su gran reactividad. Se encuentra en pequeña proporción en rocas volcánicas y sales naturales, como en el Salar de Uyuni en Bolivia (que tiene el 65% de las reservas mundiales) o el Salar de Atacama en Chile (25% de las reservas).</p>
+		
+	</article>
+	<article class="texto t-1">
+		<h2>APLICACIONES</h2>
+		<p>Por su elevado calor específico, el litio se emplea en aplicaciones de transferencia de calor, y por su elevado potencial electroquímico constituye un ánodo adecuado para las baterías eléctricas.
+
+</p>
+	</article>
+</div>
+	
+</section>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title> Q | BORO</title>
+	<link rel="stylesheet" href="css/nm.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<!--- Tipo del elemento -->
+<body class="metaloide">
+	<nav class="menu menu_metaloide1">
+		<ul>
+			<li class="item"><p>Historia</p></li>
+			<li class="item"><p>Elementos</p></li>
+			<li class="item"><p>Test</p></li>
+		</ul>
+	</nav>
+	<!--- Inicio del DOM -->
+	<header class="enc">
+		<div class="sim">
+		<!--- Simbolo del Elemento -->
+			<h1>B</h1>
+		</div>
+	</header>
+<section class="cont">
+<article class="info">
+<!--- Crear un div de esta clase para cada asset -->
+	<div class="asset">
+		<h3>
+		INFORMACION GENERAL
+		</h3>
+		<p>
+		
+Nombre y clase  : Boro, Metaloide
+
+		</p>
+		<p>
+Grupo,periodo y bloque : 13,2,p 
+		</p>
+		<P>
+
+
+Estado ordinario:	Sólido (no magnético)
+Densidad:	2460 kg/m3
+Punto de fusión:	2349 K (2076 °C)
+Punto de ebullición:	4200 K (3927 °C)
+Entalpía de vaporización:	489,7 kJ/mol
+Entalpía de fusión:	50,2 kJ/mol
+Presión de vapor:	0,348
+
+		</P>
+	</div>
+	<div class="asset">
+		<h3>
+		HISTORIA
+		</h3>
+		<p>
+		Los compuestos de boro (del árabe buraq y éste del persa burah) se conocen desde hace miles de años.16 En el antiguo Egipto la momificación dependía del natrón, un mineral que contenía boratos y otras sales comunes. En China se usaban ya cristales de bórax hacia el 300 a. C., y en la antigua Roma compuestos de boro en la fabricación de cristal. A partir del siglo VIII los boratos fueron usados en procesos de refinería de oro y plata. 
+
+		</p>
+		<P>
+		
+
+
+		</P>
+	</div>
+
+
+
+	
+
+
+	</article>
+<div class="container">
+	<article class="texto t-1">
+		<h2>BORO</h2>
+		<p>El boro es un elemento químico de la tabla periódica que tiene el símbolo B1 y número atómico 5, su masa es de 10,811. Es un elemento metaloide, semiconductor, trivalente que existe abundantemente en el mineral bórax. Hay dos alótropos del boro; el boro amorfo es un polvo marrón, pero el boro metálico es negro. La forma metálica es dura (9,3 en la escala de Mohs) y es un mal conductor a temperatura ambiente. No se ha encontrado libre en la naturaleza.
+
+</p>
+	</article>
+	<article class="texto t-1">
+		<h2>PRECAUCIONES</h2>
+		<p>Ni el boro ni los boratos son tóxicos para los seres humanos y animales. La DL50 para los animales es de unos 6 g por kg de peso corporal. Las sustancias con LD50 por encima de 2g se considera no tóxico. La dosis mínima letal para los seres humanos no ha sido establecida, pero un consumo de 4 g/día se reportó sin incidentes, y las dosis clínicas de 20 g de ácido bórico para la terapia por captura de neutrones no causó problemas.
+		</p>
+	</article>
+	<article class="texto t-1">
+		<h2>FORMACIONES</h2>
+		<p>Atendiendo a la teoría del Big Bang, en el origen el Universo encontramos como elementos H (hidrógeno), He (helio) y Li-7 (litio-7), pero el B, el quinto elemento de la tabla periódica no tiene presencia apreciable. Por lo tanto en la condensación de las primeras nebulosas, se forman estrellas fundamentalmente de H con una porción de He (helio) y Li-7 (litio-7), en las que se dan los distintos procesos de formación de elementos (Cadena protón-protón, proceso triple a y ciclo CNO).</p>
+		
+	</article>
+	<article class="texto t-1">
+		<h2>APLICACIONES</h2>
+		<p>En la actualidad, la investigación se está conduciendo en la producción de combustible en forma de hidrógeno con la interacción del agua y de un hidruro de boro (tal como NaBH4). El motor funcionaría mezclando el hidruro de boro con agua para producir el hidrógeno según lo necesitado, de modo que solucionen algunas dificultades de aplicar el hidrógeno con seguridad en el transporte y su correspondiente almacenaje. La investigación se está produciendo en la universidad de Minessota, Estados Unidos de Abu-Hamed y en el instituto de la ciencia en Rehovot, Israel de Weizmann. 
+</p>
+	</article>
+</div>
+	
+</section>
+</body>
+</html>

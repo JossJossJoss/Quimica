@@ -12,15 +12,25 @@ metal2 = rgba(254,182,69,1)
 	font-family quicksand-dash;
 	src url(Quicksand-LightItalic.otf) 
 }
+
 .no_metal
 	background -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%)
 	font-size 16px
+	a
+		text-decoration none
+		color no_metal1
 .metal
 	background -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%)
 	font-size 16px
+	a
+		text-decoration none
+		color metal1
 .metaloide
 	background -webkit-linear-gradient(left, metaloide1 0%, metaloide2 100%)
 	font-size 16px
+	a
+		text-decoration none
+		color metaloide1
 nav
 	width 100%
 .item
@@ -103,9 +113,10 @@ nav
 			display inline-block
 			width 31%
 			text-align center
+			text-decoration none
 			
-		.item:hover
-			background-color bh
+
+
 .cont
 	padding 0.2em
 .texto
